@@ -85,6 +85,6 @@ def query():
 
 
 
-if __name__ == '__main__':
-    # Change the port number if needed
-    app.run(debug=True, port=5002)
+# if __name__ == '__main__':
+#     # Change the port number if needed
+#     app.run(debug=True, port=5002)
