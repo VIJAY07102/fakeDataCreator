@@ -79,7 +79,7 @@ def query():
     endDate = datetime.strptime(endDate, date_format)
     print('start++++++++++++',startDate)
     print('end++++++++++++',endDate)
-    queried_data = query_data(r'C:\Users\A6443\OneDrive - Axtria\Desktop\Personal\assignment\fake_data.csv', startDate, endDate)
+    queried_data = query_data('fake_data.csv', startDate, endDate)
     json_response = create_json_response(queried_data)
     return json_response
 
